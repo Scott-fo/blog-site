@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+myBlog/node_modules
+
 # testing
 /coverage
 
