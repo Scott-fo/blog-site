@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import {sanityClient, urlFor} from "../sanity"
 import { Post } from '../typings'
-//Change
+
 interface Props {
   posts: [Post];
 }
