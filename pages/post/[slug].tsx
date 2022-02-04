@@ -43,6 +43,7 @@ function Post({ post }: Props) {
         <article className="max-w-3xl mx-auto p-5">
             <img src={urlFor(post.mainImage).url()!} alt="" />
             <h1 className="text-3xl mt-10 mb-3 mx-auto">{post.title}</h1>
+            <h2 className="font-extralight text-sm">Hero Image Credit: {post.imageCredit}</h2>
             <h2 className="text-xl font-light text-gray-500 mb-2">{post.description}</h2>
 
             <div>
@@ -167,6 +168,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         _id,
         _createdAt,
         title,
+        imageCredit,
         author -> {
           name,
           image

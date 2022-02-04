@@ -13,6 +13,7 @@ export interface Post {
             url: string;
         };
     };
+    imageCredit: string;
     slug: {
         current: string;
     };

@@ -13,11 +13,11 @@ export default function Home({ posts }: Props) {
   return (
     <div className="max-w-7xl mx-auto">
       <Head>
-        <title>Medium Blog</title>
+        <title>Scott Foster | Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
       <Header />
+      
       <Hero />
     
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 p-2 md:p-6'>
@@ -44,6 +44,7 @@ export const getServerSideProps = async () => {
   const query = `*[_type == "post"] {
     _id,
     title,
+    imageCredit,
     author -> {
       name,
       image

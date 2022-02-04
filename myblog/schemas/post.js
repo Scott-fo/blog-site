@@ -32,6 +32,11 @@ export default {
       },
     },
     {
+      name: 'imageCredit',
+      title: 'Image Credit',
+      type: 'string',
+    },
+    {
       name: 'categories',
       title: 'Categories',
       type: 'array',

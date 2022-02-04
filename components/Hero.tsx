@@ -1,20 +1,20 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Hero() {
   return (
-    <div className='flex justify-between items-center bg-yellow-400 border-y border-black py-10 lg:py-0'>
-        <div className='px-10 space-y-5'>
-            <h1 className='text-6xl max-w-xl font-serif'><span className='underline decoration-black decoration-4'>Medium</span> is a place to write, read, and connect</h1>
-            <h2>It's easy and free to post your thinking on any topic and connect with millions of readers</h2>
+    <Link href="https://unsplash.com/@mk__s">
+      
+        <div className='flex justify-between items-center border-y shadow py-10 lg:py-0 bg-header-banner bg-cover bg-center h-96'>
+        <div className='flex justify-between items-center bg-black/30 h-96 bg-cover w-full'>
+            <div className='px-10 space-y-5 bg-black-' >
+                <h1 className='text-6xl max-w-xl font-serif text-white'>Welcome to my blog!</h1>
+                <h2 className='text-xl max-w-xl font-serif text-white'> This page contains information about me, in-progress and completed projects, and thoughts on interesting things that I am reading.</h2>
+                <h3 className='text-l font-serif text-green-600'>- Scott Foster</h3>
+            </div>
         </div>
-        <div>
-            <img
-                className='hidden md:inline-flex h-32 lg:h-full'
-                src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png" 
-                alt=""
-            />
-        </div>
-    </div>
+      </div>
+    </Link>
   );
 }
 
