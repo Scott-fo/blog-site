@@ -10,7 +10,7 @@ function Hero() {
             <div className='px-10 space-y-5 bg-black-' >
                 <h1 className='text-6xl max-w-xl font-serif text-white'>Welcome to my blog!</h1>
                 <h2 className='text-xl max-w-xl font-serif text-white'> This page contains information about me, in-progress and completed projects, and thoughts on interesting things that I am reading.</h2>
-                <h3 className='text-l font-serif text-green-600'>- Scott Foster</h3>
+                <h3 className='text-l font-serif text-yellow-500'>- Scott Foster</h3>
             </div>
         </div>
       </div>

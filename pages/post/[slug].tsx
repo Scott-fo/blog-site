@@ -48,7 +48,7 @@ function Post({ post }: Props) {
 
             <div>
                 <img className="h-10 w-10 rounded-full" src={urlFor(post.author.image).url()!} alt="" />
-                <p className="font-extralight text-sm">Blog post by: <span className="text-green-600">{post.author.name}</span> - Published at {new Date(post._createdAt).toLocaleString()}</p>
+                <p className="font-extralight text-sm">Blog post by: <span className="text-yellow-500">{post.author.name}</span> - Published at {new Date(post._createdAt).toLocaleString()}</p>
             </div>
             <div>
                 <PortableText 
@@ -126,7 +126,7 @@ function Post({ post }: Props) {
 
 
         <div className="flex flex-col p-10 my-10 max-w-2xl mx-auto shadow-yellow-500 shadow space-y-2">
-            <h3 className="text-4xl">Comments</h3>
+            <h3 className="text-4xl">Share your thoughts below!</h3>
             <hr className="pb-2"/>
             {post.comments.map((comment) => (
                 <div key={comment._id}>
