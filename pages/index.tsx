@@ -39,7 +39,7 @@ export default function Home({ posts }: Props) {
     </div>
   )
 }
-//Test
+
 export const getServerSideProps = async () => {
   const query = `*[_type == "post"] {
     _id,
