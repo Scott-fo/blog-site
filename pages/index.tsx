@@ -34,14 +34,14 @@ export default function Home({ posts }: Props) {
                 </div>
             </div>
           </Link>
-        )).reverse()}
+        ))}
       </div>
     </div>
   )
 }
 
 export const getServerSideProps = async () => {
-  const query = `*[_type == "post"] {
+  const query = `*[_type == "post"] | order(_createdAt desc){
     _id,
     _createdAt,
     title,
