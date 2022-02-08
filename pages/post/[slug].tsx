@@ -42,7 +42,7 @@ function Post({ post }: Props) {
 
         <article className="max-w-3xl mx-auto p-5">
             <img src={urlFor(post.mainImage).url()!} alt="" />
-            <h2 className="font-extralight text-sm">Hero Image Credit: {post.imageCredit}</h2>
+            {post.imageCredit && <h2 className="font-extralight text-sm">Hero Image Credit: {post.imageCredit}</h2>}
             <h1 className="text-3xl mt-10 mb-3 mx-auto text-yellow-500 font-bold">{post.title}</h1>
             
             <h2 className="text-xl font-light text-gray-500 mb-2">{post.description}</h2>
