@@ -1,7 +1,8 @@
-Blog site built using:
+# Blog site built using:
 
-NextJS + Tailwind
+* NextJS
+* TailwindCSS
+* TypeScript
+* Sanity CMS
 
-TypeScript
-
-Sanity CMS
+Build available at: https://scott-foster.vercel.app/
