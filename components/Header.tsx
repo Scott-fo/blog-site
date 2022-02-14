@@ -9,7 +9,7 @@ function Header() {
                 <Link href="/" ><h3 className = "cursor-pointer">Home</h3></Link>
                 <Link href="https://scott-foster.netlify.app/"><h3 className = "cursor-pointer">About</h3></Link>
                 <Link href="https://www.linkedin.com/in/scottfo/"><h3 className = "cursor-pointer">Contact</h3></Link>
-                <Link href="https://twitter.com/Scott_fo1"><h3 className='text-black bg-yellow-500 px-4 py-1 rounded-full cursor-pointer'>Follow</h3></Link>
+                <Link href="https://github.com/Scott-fo"><h3 className='text-black bg-yellow-500 px-4 py-1 rounded-full cursor-pointer'>GitHub</h3></Link>
             </div>
         </div>
     </header>
